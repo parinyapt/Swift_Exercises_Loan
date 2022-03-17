@@ -1,4 +1,4 @@
-//Create Date 03-03-2022
+//Create Date 17-03-2022
 //64130010049 Parinya Termkasipanich
 import Foundation
 
@@ -18,6 +18,7 @@ repeat {
   }
 }while(temp_status == false || money["amount"]! <= 0 || money["amount"]! > 200000)
 
+temp_status = false
 repeat {
   print("Enter Amount Repay Money per Month (>=5%) : ",terminator: "")
   temp_input = readLine()!
