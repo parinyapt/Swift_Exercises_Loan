@@ -44,13 +44,3 @@ while(money["amount"]! != 0) {
   temp_count += 1
 }
 print("\nTotal Interest = \(String(format: "%.2f", money["interest"]!))")
-
-// while(money["amount"]! >= money["repay_month"]!) {
-//   money["temp"] = (config_interest / 100) * money["amount"]!
-//   money["interest"]! += money["temp"]!
-
-//   money["amount"]! -= money["repay_month"]!
-  
-//   print("\(temp_count) \(money["temp"]!) \(money["repay_month"]!) \(money["amount"]!)")
-//   temp_count += 1
-// }
